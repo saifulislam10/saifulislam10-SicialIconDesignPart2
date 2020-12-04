@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #dedede;
+}
+.IconAria{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.IconAria ul{
+	margin: 0;
+	display: block;
+}
+.IconAria ul li{
+	display:inline-block;
+	list-style: none;
+	margin: 0 11px 0;
+	padding: 20px;
+	background: #ddd;
+	border: 5px solid #ddd;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	position: relative;
+	box-shadow: 0px 7px 6px 0px #000;
+	transition: 1s;
+}
+.IconAria ul li a{
+	transition: 1s;
+}
+.IconAria ul li:hover{
+	box-shadow: 0px 0px 0px 0px #000;
+}
+.IconAria ul li:hover a .fab{
+ 	box-shadow: 0 0 0px 6px #888,inset 0px 0px 10px 11px #888;;
+}
+.IconAria ul li:hover a .fa-facebook{
+ 	color: #3b5998;
+}
+.IconAria ul li:hover a .fa-twitter{
+ 	color: #00acee;
+}
+.IconAria ul li:hover a .fa-instagram{
+ 	color: #3f729b;
+}
+.IconAria ul li:hover a .fa-whatsapp{
+ 	color: #075e54;
+}
+.IconAria ul li:hover a .fa-linkedin{
+ 	color: #0e76a8;
+}
+.IconAria ul li a .fab{
+	color: #888;
+	font-size: 38px;
+	text-align: center;
+	box-shadow: inset 0px 10px 10px 5px #888;
+	background: #56525259;
+	padding: 14px;
+	position: absolute;
+	top: 7px;
+	left: 8px;
+	border-radius: 50%;
+	transition: .9s;
+}
